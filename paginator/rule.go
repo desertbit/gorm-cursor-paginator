@@ -3,7 +3,7 @@ package paginator
 import (
 	"reflect"
 
-	"github.com/pilagod/gorm-cursor-paginator/v2/internal/util"
+	"github.com/desertbit/gorm-cursor-paginator/v2/internal/util"
 )
 
 // Rule for paginator

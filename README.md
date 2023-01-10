@@ -1,8 +1,10 @@
-# gorm-cursor-paginator [![Build Status](https://travis-ci.org/pilagod/gorm-cursor-paginator.svg?branch=master)](https://travis-ci.org/pilagod/gorm-cursor-paginator) [![Coverage Status](https://coveralls.io/repos/github/pilagod/gorm-cursor-paginator/badge.svg?branch=master&kill_cache=1)](https://coveralls.io/github/pilagod/gorm-cursor-paginator?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/pilagod/gorm-cursor-paginator)](https://goreportcard.com/report/github.com/pilagod/gorm-cursor-paginator)
+**Forked from https://github.com/pilagod/gorm-cursor-paginator**
+
+# gorm-cursor-paginator [![Build Status](https://travis-ci.org/pilagod/gorm-cursor-paginator.svg?branch=master)](https://travis-ci.org/pilagod/gorm-cursor-paginator) [![Coverage Status](https://coveralls.io/repos/github/pilagod/gorm-cursor-paginator/badge.svg?branch=master&kill_cache=1)](https://coveralls.io/github/pilagod/gorm-cursor-paginator?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/desertbit/gorm-cursor-paginator)](https://goreportcard.com/report/github.com/desertbit/gorm-cursor-paginator)
 
 A paginator doing cursor-based pagination based on [GORM](https://github.com/go-gorm/gorm)
 
-> This doc is for v2, which uses [GORM v2](https://github.com/go-gorm/gorm). If you are using [GORM v1](https://github.com/jinzhu/gorm), please checkout [v1 doc](https://github.com/pilagod/gorm-cursor-paginator/tree/v1).
+> This doc is for v2, which uses [GORM v2](https://github.com/go-gorm/gorm). If you are using [GORM v1](https://github.com/jinzhu/gorm), please checkout [v1 doc](https://github.com/desertbit/gorm-cursor-paginator/tree/v1).
 
 ## Features
 
@@ -17,14 +19,14 @@ A paginator doing cursor-based pagination based on [GORM](https://github.com/go-
 ## Installation
 
 ```sh
-go get -u github.com/pilagod/gorm-cursor-paginator/v2
+go get -u github.com/desertbit/gorm-cursor-paginator/v2
 ```
 
 ## Usage By Example
 
 ```go
 import (
-   "github.com/pilagod/gorm-cursor-paginator/v2/paginator"
+   "github.com/desertbit/gorm-cursor-paginator/v2/paginator"
 )
 ```
 
@@ -174,9 +176,9 @@ type Cursor struct {
 
 That's all! Enjoy paginating in the GORM world. :tada:
 
-> For more paginating examples, please checkout [exmaple/main.go](https://github.com/pilagod/gorm-cursor-paginator/blob/master/example/main.go) and [paginator/paginator_paginate_test.go](https://github.com/pilagod/gorm-cursor-paginator/blob/master/paginator/paginator_paginate_test.go)
+> For more paginating examples, please checkout [exmaple/main.go](https://github.com/desertbit/gorm-cursor-paginator/blob/master/example/main.go) and [paginator/paginator_paginate_test.go](https://github.com/desertbit/gorm-cursor-paginator/blob/master/paginator/paginator_paginate_test.go)
 >
-> For manually encoding/decoding cursor exmaples, please checkout [cursor/encoding_test.go](https://github.com/pilagod/gorm-cursor-paginator/blob/master/cursor/encoding_test.go)
+> For manually encoding/decoding cursor exmaples, please checkout [cursor/encoding_test.go](https://github.com/desertbit/gorm-cursor-paginator/blob/master/cursor/encoding_test.go)
 
 ## Specification
 
@@ -236,4 +238,4 @@ Default options used by paginator when not specified:
 
 © Cyan Ho (pilagod), 2018-NOW
 
-Released under the [MIT License](https://github.com/pilagod/gorm-cursor-paginator/blob/master/LICENSE)
+Released under the [MIT License](https://github.com/desertbit/gorm-cursor-paginator/blob/master/LICENSE)
